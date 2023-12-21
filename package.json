@@ -1,0 +1,24 @@
+{
+  "name": "dinner-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackPyro/dinner-coin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackPyro/dinner-coin/issues"
+  },
+  "homepage": "https://github.com/JackPyro/dinner-coin#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "socket.io": "^4.7.2"
+  }
+}
