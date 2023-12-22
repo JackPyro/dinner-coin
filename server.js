@@ -99,7 +99,7 @@ io.sockets.on("disconnect", function () {
   io.sockets.disconnect();
 });
 
-server.listen(process.env.PORT || 3000, () => {
+server.listen(80, () => {
   generateInitialData();
   console.log("server running at http://localhost:3000");
 });
